@@ -19,6 +19,8 @@ This project uses the TMDB 5000 dataset:
 - `tmdb_5000_credits.csv`
 
 Both files should be downloaded (e.g., from Kaggle's TMDB 5000 Movie Dataset) and used during the model preprocessing stage.
+## Live Link
+[Live Demo on Streamlit Cloud](https://movie-recommender-system0101.streamlit.app/)
 
 ---
 
