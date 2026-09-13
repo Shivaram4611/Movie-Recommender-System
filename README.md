@@ -33,4 +33,4 @@ Both files should be downloaded (e.g., from Kaggle's TMDB 5000 Movie Dataset) an
 └── README.md                # Project documentation
 
 ## Live Link
-https://movie-recommender-system0101.streamlit.app/
+[Live Demo on Streamlit Cloud](https://movie-recommender-system0101.streamlit.app/)
