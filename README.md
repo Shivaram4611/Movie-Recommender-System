@@ -29,5 +29,5 @@ Both files should be downloaded (e.g., from Kaggle's TMDB 5000 Movie Dataset) an
 ├── movie_recommender.ipynb  # Data preprocessing and model creation notebook
 ├── requirements.txt         # Project dependencies
 ├── movie_dict.pkl           # Pickled dataframe dictionary (generated from notebook)
-├── similarity.pkl           # Pickled similarity matrix (generated from notebook)
+├── similarity.pkl           # Pickled similarity matrix (generated from notebook)(file is more then 100 mb)
 └── README.md                # Project documentation
