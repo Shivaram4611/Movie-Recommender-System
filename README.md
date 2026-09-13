@@ -31,3 +31,6 @@ Both files should be downloaded (e.g., from Kaggle's TMDB 5000 Movie Dataset) an
 ├── movie_dict.pkl           # Pickled dataframe dictionary (generated from notebook)
 ├── similarity.pkl           # Pickled similarity matrix (generated from notebook)(file is more then 100 mb)
 └── README.md                # Project documentation
+
+## Live Link
+https://movie-recommender-system0101.streamlit.app/
