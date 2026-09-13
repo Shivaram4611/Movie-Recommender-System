@@ -1,6 +1,17 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import os
+import gdown
+import pickle
+
+if not os.path.exists('similarity.pkl'):
+    # Replace with your actual file ID from the share link
+    file_id = 'YOUR_GOOGLE_DRIVE_FILE_ID'
+    url = f'https://drive.google.com/file/d/1oOrK9XLP2vQYww7_W6ACFIXK4dfg3PCY/view?usp=sharing'
+    gdown.download(url, 'similarity.pkl', quiet=False)
+
+similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 # recommend function will sort the movie list and find similarity relation b/w movies and will return 5 similar movies as recommendation
 def recommend(movie):
